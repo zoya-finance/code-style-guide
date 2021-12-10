@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/zoya-finance/prettier-config/issues"
   },
-  "homepage": "https://github.com/zoya-finance/prettier-config#readme"
+  "homepage": "https://github.com/zoya-finance/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
