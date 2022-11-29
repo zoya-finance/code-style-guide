@@ -1,0 +1,21 @@
+{
+  "name": "@zoya-finance/prettier-config",
+  "version": "1.0.0",
+  "description": "The prettier configuration used by Zoya.",
+  "main": "index.json",
+  "scripts": {
+    "test": "node -e \"assert(require('./index.json'))\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoya-finance/prettier-config.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoya-finance/prettier-config/issues"
+  },
+  "homepage": "https://github.com/zoya-finance/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

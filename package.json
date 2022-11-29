@@ -1,21 +1,20 @@
 {
-  "name": "@zoya-finance/prettier-config",
+  "name": "@zoya-finance/code-style-guide",
   "version": "1.0.0",
-  "description": "The prettier configuration used by Zoya.",
-  "main": "index.json",
+  "description": "Zoya Finance's Code Style Guide",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "node -e \"assert(require('./index.json'))\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoya-finance/prettier-config.git"
+    "url": "git+https://github.com/zoya-finance/code-style-guide.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoya-finance/prettier-config/issues"
+    "url": "https://github.com/zoya-finance/code-style-guide/issues"
   },
-  "homepage": "https://github.com/zoya-finance/prettier-config#readme",
-  "publishConfig": {
-    "access": "public"
-  }
+  "homepage": "https://github.com/zoya-finance/code-style-guide#readme"
 }
