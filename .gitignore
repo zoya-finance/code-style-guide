@@ -1,1 +1,5 @@
 node_modules
+
+# Claude Code: per-user settings and local worktrees
+.claude/settings.local.json
+.claude/worktrees/
